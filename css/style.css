@@ -63,8 +63,17 @@ body {
   outline: 0 !important; }
 
 .logo{
-  width: 170px;
+  width: 100px;
 }  
+.navbar-toggler .oi {
+  color: gray !important;
+}
+
+.container {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 
 hr {
   -webkit-box-sizing: content-box;
