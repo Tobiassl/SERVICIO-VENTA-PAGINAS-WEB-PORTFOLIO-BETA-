@@ -82,6 +82,7 @@ body {
 
 
 
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -8395,6 +8396,12 @@ h1, h2, h3, h4, h5,
     align-items: center;
     justify-content: center;
   }
+  @media screen and (max-width: 768px) {
+    .hero {
+      height: 50vh;
+    }
+    
+  }
   
  
 .hero h3.vr {
@@ -9114,7 +9121,8 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 0.1em 0; } }
+      margin-top: -320px;
+      padding: 10em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
