@@ -8398,7 +8398,7 @@ h1, h2, h3, h4, h5,
   }
   @media screen and (max-width: 768px) {
     .hero {
-      height: 50vh;
+      height: 60vh;
     }
     
   }
@@ -9121,7 +9121,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      margin-top: -320px;
+      margin-top: -280px;
       padding: 10em 0; } }
 
 .ftco-no-pt {
