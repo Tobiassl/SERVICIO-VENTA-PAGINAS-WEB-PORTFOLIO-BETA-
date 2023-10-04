@@ -82,7 +82,6 @@ body {
 
 
 
-
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -454,6 +453,7 @@ kbd {
     padding: 0;
     font-size: 100%;
     font-weight: 700; }
+
 
 pre {
   display: block;
@@ -8398,7 +8398,7 @@ h1, h2, h3, h4, h5,
   }
   @media screen and (max-width: 768px) {
     .hero {
-      height: 60vh;
+     margin-top: -120px;
     }
     
   }
@@ -9117,12 +9117,12 @@ textarea.form-control {
     
 
 .ftco-section {
-  padding: 0.5em 0;
+  padding: 1em 0;
   position: relative; }
-  @media (max-width: 767.98px) {
+  @media (max-width: 768px) {
     .ftco-section {
-      margin-top: -280px;
-      padding: 10em 0; } }
+      margin-top: -50px;
+      padding: 1em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
